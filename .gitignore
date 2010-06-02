@@ -1,0 +1,13 @@
+*.o
+*.sis
+*.sisx
+*.pkg
+.settings
+.settings/*
+*.*~
+.project
+.cproject
+.cdtproject
+ui_*.h
+moc_*.cpp
+moc_*.h

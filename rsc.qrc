@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/files">
+        <file>gradb.png</file>
+        <file>logo.png</file>
+        <file>gradt.png</file>
+    </qresource>
+</RCC>
