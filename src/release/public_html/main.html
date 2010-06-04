@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html> 
+<head> 
+<style type="text/css"> 
+body { 
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 11px; 
+font-weight: normal; 
+color: #000000; 
+margin: 0px; 
+background-attachment: fixed; 
+background-image: url(/bg.gif); 
+} 
+</style> 
+</head> 
+<body> 
+<div style="text-align: center;"> 
+<span style="font-weight: bold; font-style: italic;"><h1>AgilePresenter</h1></span> 
+
+<p>
+[agile_presenter_status] 
+
+
+<TABLE BORDER="0" align = "center"> 
+<TR> 
+<TD> 
+<FORM METHOD="LINK" ACTION="/prev"> 
+<INPUT TYPE="submit" VALUE="Previous Slide"> 
+</FORM>
+</TD> 
+<TD> 
+<FORM METHOD="LINK" ACTION="/next"> 
+<INPUT TYPE="submit" VALUE="Next Slide"> 
+</FORM>
+</TD> 
+</TR> 
+</TABLE> 
+<div align="center">					
+<form method="LINK" action="/click">
+<input border="0" src="/getss[agile_presenter_time_num]" width="400" height="300" name="I1" type="image">
+</form>
+Click on the image to send a &quot;mouse click&quot;
+</div>	
+ <TABLE BORDER="0" align = "center"> 
+ <TR> 
+ <TD> 
+ <FORM METHOD="LINK" ACTION="/home"> 
+ <INPUT TYPE="submit" VALUE="Home"> 
+ </FORM>
+ </TD> 
+ <TD> 
+ <FORM METHOD="LINK" ACTION="/end"> 
+ <INPUT TYPE="submit" VALUE="End"> 
+ </FORM>
+ </TD> 
+ </TR> 
+ </TABLE> 
+<small>Make sure your Presentation has started so the commands would work correctly</small> 
+<FORM METHOD="LINK" ACTION="/refresh"> 
+<INPUT TYPE="submit" VALUE="Refresh Screenshot"> 
+</FORM>
+</p> 
+
+AgilePresenter v1.0.0<br/>  
+<strong>Remote-Control Presentations on your WIFI Phone</strong><br/>
+<a href="http://www.clearevo.com">www.ClearEvo.com</a> 
+</div> 
+</body> 
+</html>
+
