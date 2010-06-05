@@ -15,6 +15,8 @@ http://github.com/ykasidit/AgilePresenter/archives/master>
 
 4. Open you're phone's browser to the specified URL in AgilePresenter running on your computer...  If there are no firewall problems, the page would load, you'd see a few buttons and the current screenshot of your PC - click the screenshot the simulate a click on computer making the presentation go next. Remote control your presentation from phone!
 
+[Please help donate for this free software! Please click here**](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8300244)
+
 License
 =======
 AgilePresenter free-software and released under the GNU GPL.
