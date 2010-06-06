@@ -1,0 +1,5 @@
+- show all IPs and simple name, refresh regularly
+- add lots more command - show help how to add/custom command to page
+- add screensync feature using stuart auto refresh html template
+- watch/refresh main.html after change - no need to reboot app
+- password like htaccess

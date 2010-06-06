@@ -34,7 +34,7 @@ typedef struct
 } key_table_entry;
 
 #ifdef Q_WS_WIN
-static const key_table_entry win_key_map[] = {
+static const key_table_entry key_map[] = {
     {"prev",VK_PRIOR},
     {"next",VK_NEXT},
     {"page_up",VK_PRIOR},
@@ -42,15 +42,16 @@ static const key_table_entry win_key_map[] = {
     {"home",VK_HOME},
     {"end",VK_END}
 };
-
+#endif
 //return 0 if success
+
 int get_key_code(const char* str, int* code)
 {
-        int table_len = sizeof(win_key_map)/sizeof(key_table_entry);
+        int table_len = sizeof(key_map)/sizeof(key_table_entry);
         int i=0;
         for(;i<table_len;i++)
         {
-                if( strcmp(win_key_map[i].name,str) == 0)
+                if( strcmp(key_map[i].name,str) == 0)
                 {
                         *code = win_key_map[i].key_code;
                         return 0;
@@ -61,7 +62,5 @@ int get_key_code(const char* str, int* code)
 
         return -1;
 };
-
-#endif
 
 #endif // AVAIL_COMMANDS_H
