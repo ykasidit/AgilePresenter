@@ -29,4 +29,5 @@ About
 =========
 AgilePresenter was developed by Kasidit Yusuf. A lot of the code is based on a Qt C++ example. Please visit <http://www.clearevo.com>.
 
-Special thanks to Stuart Hanlon for all his insights and ideas.
+Special thanks to **Stuart Hanlon** for all his insights and ideas.
+
