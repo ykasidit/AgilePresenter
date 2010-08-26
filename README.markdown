@@ -4,8 +4,7 @@ Remote control presentation slides from a WIFI enabled phone or another computer
 
 Setup & usage
 =============
-1. Download the latest release from <
-http://github.com/ykasidit/AgilePresenter/archives/master>
+1. Download the latest release from <http://github.com/ykasidit/AgilePresenter/archives/master>
 
 2. Extract the zip/archive to C:\AgilePresenter or somewhere similar. Double-click start_app_windows.bat.
 
